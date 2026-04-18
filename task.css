@@ -1,0 +1,56 @@
+body {
+    background-color: mediumturquoise;
+    font-family: Arial, sans-serif;
+}
+
+/* Center link */
+.center-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Headings */
+h1 {
+    color: olive;
+    text-align: center;
+}
+
+h2 {
+    color: olive;
+    text-align: center;
+}
+
+/* Content styling */
+p, ol, ul, dl {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+th, td {
+    border: 2px solid orchid;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+    background-color: lightslategrey;
+}
+
+/* Links */
+a {
+    color: indigo;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
